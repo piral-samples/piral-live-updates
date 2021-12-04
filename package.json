@@ -1,0 +1,39 @@
+{
+  "name": "piral-live-updates",
+  "version": "1.0.0",
+  "description": "Show how a Piral instance may be live updated.",
+  "keywords": [
+    "piral"
+  ],
+  "dependencies": {
+    "piral": "0.14.4",
+    "piral-update": "0.14.4"
+  },
+  "scripts": {
+    "start": "piral debug",
+    "build": "piral build"
+  },
+  "app": "./src/index.html",
+  "pilets": {
+    "files": [],
+    "externals": [],
+    "scripts": {},
+    "validators": {},
+    "devDependencies": {},
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": "",
+    "packageOverrides": {}
+  },
+  "devDependencies": {
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/react-router": "^5",
+    "@types/react-router-dom": "^5",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "piral-cli": "0.14.4",
+    "piral-cli-webpack5": "0.14.4"
+  }
+}
